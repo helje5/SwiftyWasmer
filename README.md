@@ -31,7 +31,7 @@ let module   = try WebAssembly.Module  (wasmData)
 let instance = try WebAssembly.Instance(module)
 
 // Run a function exported by the Module
-let results = try instance.exports.sum(.i32(7), .i32(8))
+let results  = try instance.exports.sum(.i32(7), .i32(8))
 ```
 
 
