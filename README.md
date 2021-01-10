@@ -85,6 +85,11 @@ mv ~/.wasmer/lib/libwasmer.dylib ~/.wasmer/lib/libwasmer.dylib-away
  in the dynamic library lookup path.)
 
 
+### Tests
+
+In a separate package, because they carry some larger binaries:
+[SwiftyWasmerTests](https://github.com/AlwaysRightInstitute/SwiftyWasmerTests).
+
 ### Links
 
 - [Wasmer](https://wasmer.io)
